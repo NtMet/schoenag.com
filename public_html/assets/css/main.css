@@ -1,0 +1,52 @@
+/*true%true*/
+.logo {
+	width: 200px !important;
+    margin-top: 5px !important;
+}
+
+#check {
+
+}
+.well {
+    max-width: 737px !important;
+    margin: 0 auto !important;
+}
+.container {
+    max-width: 900px !important;
+
+}
+.navbar {
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+.navbar-header {
+    float: none !important;
+}
+.navbar {
+    background-color: #6c960a;
+    color: #ffffff;
+    min-height: 50px !important;
+}
+.navbar-right .dropdown-menu {
+    right: auto !important;
+}
+.minHeight {
+    min-height: 360px !important;
+}
+.minHeight ul li{
+    list-style-type: none;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+ .nav.navbar-nav > li > a,
+ .nav.navbar-nav > li > a {
+     color: #cdcdcd;
+ }
+
+.nav.navbar-nav > li > a:hover,
+.nav.navbar-nav > li > a:focus {
+    color: #6c960a !important;
+    background: none;
+}
