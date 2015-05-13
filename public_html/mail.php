@@ -1,6 +1,6 @@
 <?php
-require_once(__DIR__ . '/../martinetti-sa.ch/lib/autoload.php');
-require_once(__DIR__ . '/../martinetti-sa.ch/lib/3rd-party/smarty/libs/Smarty.class.php');
+require_once(__DIR__ . '/../home/lib/autoload.php');
+require_once(__DIR__ . '/../home/lib/3rd-party/smarty/libs/Smarty.class.php');
 session_start();
 $mC = new \controller\MailController();
 $to      = 'tiziano.meier@nintu.ch';

@@ -1,6 +1,6 @@
 <?php
-require_once(__DIR__ . '/../martinetti-sa.ch/lib/autoload.php');
-require_once(__DIR__ . '/../martinetti-sa.ch/lib/3rd-party/smarty/libs/Smarty.class.php');
+require_once(__DIR__ . '/../home/lib/autoload.php');
+require_once(__DIR__ . '/../home/lib/3rd-party/smarty/libs/Smarty.class.php');
 
 use controller\ContentController;
 
@@ -17,11 +17,11 @@ try {
         }
         if(isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
             $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-            if(($lang != 'it') && ($lang != 'de')){
-                $lang = 'it';
+            if(($lang != 'en') && ($lang != 'de')){
+                $lang = 'en';
             }
         }
-        if(!isset($_REQUEST['lang']) || (isset($_REQUEST['lang']) && ($_REQUEST['lang'] != 'it' && $_REQUEST['lang'] != 'de'))) {
+        if(!isset($_REQUEST['lang']) || (isset($_REQUEST['lang']) && ($_REQUEST['lang'] != 'en' && $_REQUEST['lang'] != 'de'))) {
             $_SESSION['lang'] = $_REQUEST['lang'] = $lang;
         }
     }
